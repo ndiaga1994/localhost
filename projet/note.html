@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>NOTE</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Barlow&amp;display=swap'><link rel="stylesheet" href="./note.css">
+
+</head>
+<body>
+
+<div class="container active">
+  <header>
+    <button type ="submit" id="add" title="Add new note">
+      <i class="fi fi-plus-a">ajouter une note</i>
+    </button>
+    <h3>Notes</h3>
+    <div class="buttons">
+      <button type ="submit" id="removenote" title="Delete note">
+        <i class="fi fi-trash">suprimer une note</i>
+      </button>
+      <button type ="submit" id="save" title="Save note">
+        <i class="fi fi-save"> enregistrer</i>
+      </button>
+    </div>
+  </header>
+  <aside>
+    <span id="toggle">
+      <i class="fi fi-angle-dobule-left"></i>
+    </span>
+    <div class="search-box">
+      <i class="fi fi-search"></i>
+      <input type="text" id="search" placeholder="Search">
+    </div>
+    <ul id="notelist">
+ 
+    </ul>
+  </aside>
+  <main>
+    <textarea name="noteinput" id="noteinput" cols="50" rows="50" placeholder="Create new note"></textarea>
+  </main>
+</div>
+<!-- partial -->
+  <script  src="note.js"></script>
+
+</body>
+</html>
